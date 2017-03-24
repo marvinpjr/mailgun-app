@@ -1,0 +1,143 @@
+﻿/* Color scheme generated on http://www.colorcodehex.com/460904/ */
+
+@font-face {
+    font-family: 'LoversQuarrel-Regular';
+    src: url('fonts/LoversQuarrel-Regular.otf');
+}
+
+body {
+    background: url('images/fmfavzg.png') repeat #FF9187; /* created with http://bgpatterns.com/ */
+    font-family: Verdana;
+}
+
+
+h3 {
+    font-size: 50px;
+    font-family: 'LoversQuarrel-Regular', 'Montez', cursive;
+    font-style: normal;
+    color: #460904;
+}
+
+div.well {
+    margin: 10px 0 0 0;
+    padding: 0 15px 5px 15px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #460904;
+}
+
+    a:hover {
+        text-decoration: none;
+        color: #770F07;
+    }
+
+li {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+a.navbar-brand, a.navbar-brand:visited {
+    margin: 5px 5px 0 0;
+    padding: 13px 5px 5px 5px;
+    border: 1px solid #e6aa92;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 40px;
+    font-family: 'LoversQuarrel-Regular', 'Montez', cursive;
+    font-style: normal;
+}
+
+    a.navbar-brand span, a.navbar-brand:visited span {
+        color: #e6aa92;
+    }
+
+div.stripe {
+    background-color: #460904;
+    font-family: 'Verdana';
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+    div.stripe h1 {
+        font-size: 80px;
+        font-family: 'LoversQuarrel-Regular', 'Montez', cursive;
+        font-style: normal;
+        color: #e6aa92;
+        margin-bottom: 0px;
+        line-height: 0.7;
+    }
+
+
+div.page-header {
+    border: 0;
+}
+
+    div.page-header p.lead {
+        margin: -10px 0 0 30px;
+        font-size: 20px;
+    }
+
+
+div.navstripe {
+    /* generated on http://www.css3factory.com/linear-gradients/ */
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0.31, #460A04), color-stop(1, #340603) );
+    background-image: -o-linear-gradient(bottom, #460A04 31%, #340603 100%);
+    background-image: -moz-linear-gradient(bottom, #460A04 31%, #340603 100%);
+    background-image: -webkit-linear-gradient(bottom, #460A04 31%, #340603 100%);
+    background-image: -ms-linear-gradient(bottom, #460A04 31%, #340603 100%);
+    background-image: linear-gradient(to bottom, #460A04 31%, #340603 100%);
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: 0;
+    margin-bottom: 0px;
+}
+
+    .navbar-default .navbar-nav li.active a {
+        font-size: 20px;
+        font-style: normal;
+        color: #460904;
+    }
+
+    .navbar-default .navbar-nav li a {
+        font-size: 20px;
+        font-style: normal;
+        color: #e6aa92;
+    }
+
+        .navbar-default .navbar-nav li a:hover {
+            font-size: 20px;
+            font-style: normal;
+            color: #F88B82;
+        }
+
+ul span.glyphicon {
+    font-size: 5px;
+    vertical-align: middle;
+}
+
+h3 span.glyphicon {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+ul.list-unstyled {
+    margin-left: 15px;
+}
+
+#carousel-example-generic {
+    margin-top: 15px;
+}
+
+.carousel span.pull-left {
+    font-size: 40px;
+    font-family: 'LoversQuarrel-Regular', 'Helvetica', sans-serif;
+    font-style: normal;
+    color: #e6aa92;
+}

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnandaMvc", "AnandaMvc\AnandaMvc.csproj", "{4B4DBD5D-A017-485C-8446-82CC386E1033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnandaMvc.Code", "AnandaMvc.Code\AnandaMvc.Code.csproj", "{BCE24C5E-F207-4C66-A8AC-00867296CE7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnandaMvc.Tests", "AnandaMvc.Tests\AnandaMvc.Tests.csproj", "{C323408C-1184-42A7-AE90-5BEF3AE19D77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B4DBD5D-A017-485C-8446-82CC386E1033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4DBD5D-A017-485C-8446-82CC386E1033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4DBD5D-A017-485C-8446-82CC386E1033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4DBD5D-A017-485C-8446-82CC386E1033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCE24C5E-F207-4C66-A8AC-00867296CE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE24C5E-F207-4C66-A8AC-00867296CE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE24C5E-F207-4C66-A8AC-00867296CE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE24C5E-F207-4C66-A8AC-00867296CE7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C323408C-1184-42A7-AE90-5BEF3AE19D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C323408C-1184-42A7-AE90-5BEF3AE19D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C323408C-1184-42A7-AE90-5BEF3AE19D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C323408C-1184-42A7-AE90-5BEF3AE19D77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

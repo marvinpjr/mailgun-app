@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Buy Some Time With Ananda";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>Buy Some Time With Ananda...</h3>
+
+
+
+        <form role="form" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="U7BQ3U8BTTRWL">
+
+            <div class="form-group">
+                <label for="os0" class="col-sm-2 control-label">
+                    <input type="hidden" name="on0" value="Conversations">Conversations</label>
+                <div class="col-sm-10">
+                    <select name="os0" class="form-control">
+                        <option value="30 min.">30 min. $35.00 USD</option>
+                        <option value="60 min.">60 min. $60.00 USD</option>
+                        <option value="90 min.">90 min. $80.00 USD</option>
+                    </select>
+                </div>
+            </div>
+
+            <br /><br />
+
+            <div class="form-group">
+                <input type="hidden" name="currency_code" value="USD">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
